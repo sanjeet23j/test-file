@@ -1,0 +1,118 @@
+.compainging-header {
+
+    display: flex;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.campaining-heading {
+    font-size: 21px;
+    font-size: 400;
+    text-align: center;
+    font-weight: 400;
+}
+
+.compaining-content {
+    font-size: 13px;
+    background: #76cc59;
+    color: #fff;
+    padding:4px 9px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+       border: 2px solid  transparent;
+
+}
+.compaining-content:hover{
+background: #fff;
+    border: 2px solid  #76cc59;
+    color:  #76cc59;
+}
+
+.compaining-content:not(:last-child) {
+
+    margin-right: 7px;
+}
+
+.table_header_bg-color {
+    background: #f6f6f6;
+    font-weight: 400;
+    font-size: 13px;
+    color: #787878
+        
+}
+
+.table_body{
+font-size: 11px;
+    color: gray;
+}
+
+
+
+.table_body .fa-whatsapp{
+
+color: #17bb17;
+    font-size: 27px;
+}
+
+.campaing_tbody{
+display: flex;
+    align-items: end;
+}
+
+
+.view_table-body{
+width: 20px;
+}
+
+.view_table-body span{
+      background: #334999;
+    break-after: avoid;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 50%;
+    padding: 4px;
+
+}
+.bg-light_navbar{
+     background: #334999;
+    color: #fff;    
+
+}
+ .tbody_action{ 
+     display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+     flex-wrap: wrap;
+    color: gray;
+}    
+
+.date_scheule_action{
+color: #334999;
+        font-size: 10px;
+    text-align: center;
+}
+.date_scheule_action .fa-calendar{
+font-size: 16px;
+}
+.navbar_beta_link{
+justify-content: flex-end;
+}
+.navbar_beta_link .navbar-nav .nav-item .nav-link{
+
+color: #fff;
+
+
+}
+@media only screen and (max-width: 600px) {
+    .compaining-content{
+
+        font-size: 11px;
+    }
+}
